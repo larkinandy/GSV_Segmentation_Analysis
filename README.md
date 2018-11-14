@@ -12,7 +12,7 @@ TODO: Insert image that summarizes repository <br>
 **Date Created:** November 14th, 2018
 
 **Summary** <br>
-The purpose of this project is to evaluate whether GSV image estimates capture characteristics of the built environment, most notably characteristics dependent on visibility (e.g. beauty) compared to traditional estimates based on satellite imagery.  The [MIT Place Pulse dataset](http://pulse.media.mit.edu/about/) is the underlying dataset used for comparisons.  Place Pulse contains georeferenced street view imagery and 1.5 million participant comparisons of images on characteristics such as beauty, safety, and liveliness.  GSV images estimates were derived using a PSPNet model, while remote sensing estimates were derived using buffers around Pulse Place locations in ArcGIS.
+The purpose of this project is to evaluate whether GSV image estimates capture characteristics of the built environment, most notably characteristics dependent on visibility (e.g. beauty) compared to traditional estimates based on satellite imagery.  The [MIT Place Pulse dataset](http://pulse.media.mit.edu/about/) is the underlying dataset used for comparisons.  Place Pulse contains georeferenced street view imagery and 1.5 million participant comparisons of images on characteristics such as beauty, safety, and liveliness.  GSV images estimates were derived using a PSPNet model, while remote sensing estimates were derived using buffers around Pulse Place locations in ArcGIS.  This work expands upon a [previous project](https://github.com/larkinandy/GSV_NDVI_Comparison) which compared satellite estimates of greenspace to percent green pixels in GSV imagery.
 
 **Repository Structure** <br>
 Files are divided into two folders, based on their relative stage of project development. Scripts from a [previous project](https://github.com/larkinandy/LUR-NO2-Model) were utilized for downloading remote sensing imagery and generating buffer based estimates <br>
@@ -27,3 +27,4 @@ TODO: insert link to publication once published <br>
 - **MIT Place Pulse** - http://pulse.media.mit.edu/about/ <br>
 - **Image Segmentation Analysis** - TODO: insert Xiang Gu's github page <br>
 - **Remote Sensing Buffer Estimates** - https://github.com/larkinandy/LUR-NO2-Model
+- **Previous study comparing GSV percent green to remote sensing** - https://github.com/larkinandy/GSV_NDVI_Comparison <br>
