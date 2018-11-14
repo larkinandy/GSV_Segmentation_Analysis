@@ -1,9 +1,6 @@
 # GSV_Segmentation_Analysis
 Compare object based classification of GSV images with remote sensing imagery
 
-TODO: Insert image that summarizes repository <br>
-
-
 **Author:** [Andrew Larkin](https://www.linkedin.com/in/andrew-larkin-525ba3b5/) <br>
 **Co-Author:** [Xiang Gu](https://www.researchgate.net/profile/Xiang_Gu9) <br>
 **Affiliation:** [Oregon State University, College of Public Health and Human Sciences](https://health.oregonstate.edu/) <br>
@@ -12,7 +9,16 @@ TODO: Insert image that summarizes repository <br>
 **Date Created:** November 14th, 2018
 
 **Summary** <br>
-The purpose of this project is to evaluate whether GSV image estimates capture characteristics of the built environment, most notably characteristics dependent on visibility (e.g. beauty) compared to traditional estimates based on satellite imagery.  The [MIT Place Pulse dataset](http://pulse.media.mit.edu/about/) is the underlying dataset used for comparisons.  Place Pulse contains georeferenced street view imagery and 1.5 million participant comparisons of images on characteristics such as beauty, safety, and liveliness.  GSV images estimates were derived using a PSPNet model, while remote sensing estimates were derived using buffers around Pulse Place locations in ArcGIS.
+This folder contains built environment estimates derived from Google Street View (GSV) and remote sensing imagery.  Scripts used to derived this estimates are available on other github repositories listed in the external links section below. <br>
+
+**Codebook** <br>
+Variables are either built environment measures derived from images, built environment measures derived from remote sensing, or metadata about the GSV image and corresponding location.  Estimates of perceived scores from the Place Pulse dataset are available in the external link listed below.  <br>
+
+**Image based built environment measures** <br>
+
+
+
+
 
 **Repository Structure** <br>
 Files are divided into two folders, based on their relative stage of project development. Scripts from a [previous project](https://github.com/larkinandy/LUR-NO2-Model) were utilized for downloading remote sensing imagery and generating buffer based estimates <br>
