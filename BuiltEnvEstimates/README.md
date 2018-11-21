@@ -43,8 +43,8 @@ all remote sensing measures are based on latitude/longitude coordinates <br>
 **Referenced Datasets** <br>
 1) **Openstreetmap** - https://wiki.openstreetmap.org/wiki/Main_Page <br>
 2) **Larkin et al., 2017** - https://github.com/larkinandy/LUR-NO2-Model <br>
-3) **insert tree cover reference** <br>
-4) **insert impervious surface area reference** <br>
+3) **Sexton et al., 2013** - https://www.tandfonline.com/doi/abs/10.1080/17538947.2013.786146<br>
+4) **NASA Earth Observation Group** - http://www.ngdc.noaa.gov/eog/dmsp/download_global_isa.html   <br>
 5) **Gridded World of the Population, v.4** - http://sedac.ciesin.columbia.edu/data/collection/gpw-v4 <br>
 6) **MODIS Annual NDVI** - https://modis.gsfc.nasa.gov/data/dataprod/mod13.php <br>
 7) **van Donkelaar et al., 2016** - http://sedac.ciesin.columbia.edu/data/set/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod <br>
