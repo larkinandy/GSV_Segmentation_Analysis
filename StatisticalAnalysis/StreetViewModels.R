@@ -365,8 +365,8 @@ livelySubset$residuals <- livelySubset$predictions - livelySubset$mu_lively
 livelyStats <- calcCityRMSE(livelySubset,"lively")
 livelyR2 <- calcCityRSquared(livelySubset,"lively")
 
-write.csv(safetyStats,"livelyStats.csv")
-write.csv(safetyR2,"livelyR2.csv")
+write.csv(livelyStats,"livelyStats.csv")
+write.csv(livelyR2,"livelyR2.csv")
 
 
 ######## lively - image-based predictors ############
